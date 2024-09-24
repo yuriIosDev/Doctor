@@ -8,17 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		ED3E26CC2CA2A5430055EC54 /* TestDoctorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3E26CB2CA2A5430055EC54 /* TestDoctorApp.swift */; };
-		ED3E26CE2CA2A5430055EC54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3E26CD2CA2A5430055EC54 /* ContentView.swift */; };
-		ED3E26D02CA2A5440055EC54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED3E26CF2CA2A5440055EC54 /* Assets.xcassets */; };
 		ED3E26D32CA2A5440055EC54 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED3E26D22CA2A5440055EC54 /* Preview Assets.xcassets */; };
+		ED3E26DA2CA2A6770055EC54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED3E26D92CA2A6770055EC54 /* Assets.xcassets */; };
+		ED3E26E62CA2A68D0055EC54 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3E26DB2CA2A68D0055EC54 /* UserModel.swift */; };
+		ED3E26E72CA2A68D0055EC54 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3E26DD2CA2A68D0055EC54 /* CardView.swift */; };
+		ED3E26E82CA2A68D0055EC54 /* CardViewBoss.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3E26DE2CA2A68D0055EC54 /* CardViewBoss.swift */; };
+		ED3E26E92CA2A68D0055EC54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3E26DF2CA2A68D0055EC54 /* ContentView.swift */; };
+		ED3E26EA2CA2A68D0055EC54 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3E26E02CA2A68D0055EC54 /* HomeView.swift */; };
+		ED3E26EB2CA2A68D0055EC54 /* PriceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3E26E12CA2A68D0055EC54 /* PriceView.swift */; };
+		ED3E26EC2CA2A68D0055EC54 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3E26E32CA2A68D0055EC54 /* HomeViewModel.swift */; };
+		ED3E26F02CA2A6970055EC54 /* 655b754e0574da7622c94aa4.json in Resources */ = {isa = PBXBuildFile; fileRef = ED3E26ED2CA2A6970055EC54 /* 655b754e0574da7622c94aa4.json */; };
+		ED3E26F12CA2A6970055EC54 /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3E26EE2CA2A6970055EC54 /* ServiceManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ED3E26C82CA2A5430055EC54 /* TestDoctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestDoctor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED3E26CB2CA2A5430055EC54 /* TestDoctorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDoctorApp.swift; sourceTree = "<group>"; };
-		ED3E26CD2CA2A5430055EC54 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		ED3E26CF2CA2A5440055EC54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED3E26D22CA2A5440055EC54 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ED3E26D92CA2A6770055EC54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED3E26DB2CA2A68D0055EC54 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		ED3E26DD2CA2A68D0055EC54 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		ED3E26DE2CA2A68D0055EC54 /* CardViewBoss.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardViewBoss.swift; sourceTree = "<group>"; };
+		ED3E26DF2CA2A68D0055EC54 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ED3E26E02CA2A68D0055EC54 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		ED3E26E12CA2A68D0055EC54 /* PriceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriceView.swift; sourceTree = "<group>"; };
+		ED3E26E32CA2A68D0055EC54 /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		ED3E26ED2CA2A6970055EC54 /* 655b754e0574da7622c94aa4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 655b754e0574da7622c94aa4.json; sourceTree = "<group>"; };
+		ED3E26EE2CA2A6970055EC54 /* ServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +68,9 @@
 			isa = PBXGroup;
 			children = (
 				ED3E26CB2CA2A5430055EC54 /* TestDoctorApp.swift */,
-				ED3E26CD2CA2A5430055EC54 /* ContentView.swift */,
-				ED3E26CF2CA2A5440055EC54 /* Assets.xcassets */,
+				ED3E26EF2CA2A6970055EC54 /* ServiceManager */,
+				ED3E26E52CA2A68D0055EC54 /* MainTest */,
+				ED3E26D92CA2A6770055EC54 /* Assets.xcassets */,
 				ED3E26D12CA2A5440055EC54 /* Preview Content */,
 			);
 			path = TestDoctor;
@@ -65,6 +82,53 @@
 				ED3E26D22CA2A5440055EC54 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ED3E26DC2CA2A68D0055EC54 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ED3E26DB2CA2A68D0055EC54 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ED3E26E22CA2A68D0055EC54 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ED3E26DD2CA2A68D0055EC54 /* CardView.swift */,
+				ED3E26DE2CA2A68D0055EC54 /* CardViewBoss.swift */,
+				ED3E26DF2CA2A68D0055EC54 /* ContentView.swift */,
+				ED3E26E02CA2A68D0055EC54 /* HomeView.swift */,
+				ED3E26E12CA2A68D0055EC54 /* PriceView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ED3E26E42CA2A68D0055EC54 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				ED3E26E32CA2A68D0055EC54 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		ED3E26E52CA2A68D0055EC54 /* MainTest */ = {
+			isa = PBXGroup;
+			children = (
+				ED3E26DC2CA2A68D0055EC54 /* Model */,
+				ED3E26E22CA2A68D0055EC54 /* View */,
+				ED3E26E42CA2A68D0055EC54 /* ViewModel */,
+			);
+			path = MainTest;
+			sourceTree = "<group>";
+		};
+		ED3E26EF2CA2A6970055EC54 /* ServiceManager */ = {
+			isa = PBXGroup;
+			children = (
+				ED3E26ED2CA2A6970055EC54 /* 655b754e0574da7622c94aa4.json */,
+				ED3E26EE2CA2A6970055EC54 /* ServiceManager.swift */,
+			);
+			path = ServiceManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +189,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED3E26DA2CA2A6770055EC54 /* Assets.xcassets in Resources */,
 				ED3E26D32CA2A5440055EC54 /* Preview Assets.xcassets in Resources */,
-				ED3E26D02CA2A5440055EC54 /* Assets.xcassets in Resources */,
+				ED3E26F02CA2A6970055EC54 /* 655b754e0574da7622c94aa4.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +202,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED3E26CE2CA2A5430055EC54 /* ContentView.swift in Sources */,
+				ED3E26E62CA2A68D0055EC54 /* UserModel.swift in Sources */,
+				ED3E26EB2CA2A68D0055EC54 /* PriceView.swift in Sources */,
+				ED3E26E92CA2A68D0055EC54 /* ContentView.swift in Sources */,
+				ED3E26EC2CA2A68D0055EC54 /* HomeViewModel.swift in Sources */,
+				ED3E26E82CA2A68D0055EC54 /* CardViewBoss.swift in Sources */,
+				ED3E26F12CA2A6970055EC54 /* ServiceManager.swift in Sources */,
+				ED3E26EA2CA2A68D0055EC54 /* HomeView.swift in Sources */,
+				ED3E26E72CA2A68D0055EC54 /* CardView.swift in Sources */,
 				ED3E26CC2CA2A5430055EC54 /* TestDoctorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
